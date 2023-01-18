@@ -1,0 +1,115 @@
+#button{
+    border: 2px solid rgb(255, 0, 0);;
+    color: rgb(255, 0, 0);
+    border-radius: 8px;
+    padding: 9px;
+    cursor: pointer;
+    background-color: #014f9500;
+    font-size:15px
+}
+
+#button-edit{
+    border: 2px solid rgb(216, 209, 4);
+    color: rgb(216, 209, 4);
+    border-radius: 8px;
+    padding: 9px;
+    cursor: pointer;
+    background-color: #014f9500;
+    font-size:15px
+}
+.link-phoneBook{
+  text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.link-phoneBook:hover{
+  text-decoration-line: underline;
+    text-decoration-color: #EC6ED4; 
+    transition: 0.9s;
+}
+
+.card{
+  margin-top: 15px;
+    box-shadow: 0 4px 39px 0 rgb(0 0 0 / 58%);
+    transition: 0.3s;
+    width: 30%;
+    height: 30%;
+    border-radius: 41px;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  }
+.container-card-phoneBook{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2px 16px;
+    border: 5px solid #EC6ED4;
+    width: 91%;
+    height: 30%;
+    border-radius: 41px;
+  }
+.card-fullName-phoneBook{
+    color: #fff;
+    font-size: 20px;
+    
+  }
+.phoneBook{
+    text-shadow: 2px 2px #EC6ED4;
+  }
+.card-otherPhone-phoneBook{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+.card-otherPhone-phoneBook:hover{
+    text-shadow: 2px 2px #EC6ED4;
+  }
+.card-age-phoneBook{
+    color: #fff;
+    font-size: 20px;
+  }
+.card-age-phoneBook:hover{
+    text-shadow: 2px 2px #EC6ED4;
+  }
+.card-gender-phoneBook{
+    color: #fff;
+    font-size: 20px;
+    
+  }
+.card-gender-phoneBook:hover{
+    text-shadow: 2px 2px #EC6ED4;
+  }
+.card-address{
+    color: #fff ;
+    font-size: 20px;
+    text-align: center;
+    word-break: break-all
+   
+}
+.card-address-phoneBook:hover{
+  text-shadow: 2px 2px #EC6ED4;
+}
+.card-btn-phoneBook{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     align-items: center;
+  }
+
+.link{
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+}
+.link:hover{
+      text-decoration-line: underline;
+      text-decoration-color:red;
+      transition: 0.9s;
+}

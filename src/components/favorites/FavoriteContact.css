@@ -1,0 +1,54 @@
+.container-card-fav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2px 16px;
+    border: 5px solid red;
+    width: 91%;
+    height: auto;
+    border-radius: 41px;
+  }
+.card-fullName-fav{
+    color: #fff;
+    font-size: 20px;
+  }
+.fav{
+    text-shadow: 2px 2px red;
+  }
+.card-otherPhone-fav{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+.card-otherPhone-fav:hover{
+    text-shadow: 2px 2px red;
+  }
+.card-age-fav{
+    color: #fff;
+    font-size: 20px;
+  }
+.card-age-fav:hover{
+    text-shadow: 2px 2px red;
+  }
+.card-gender-fav{
+    color: #fff;
+    font-size: 20px;
+    
+  }
+.card-gender-fav:hover{
+    text-shadow: 2px 2px red;
+  }
+.card-address-fav{
+    color: #fff ;
+    font-size: 20px;
+    text-align: center;
+    word-break: break-all
+   
+}
+.card-address-fav:hover{
+  text-shadow: 2px 2px red;
+}

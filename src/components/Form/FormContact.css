@@ -1,0 +1,133 @@
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items:center !important;
+  }
+  #info-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #fff;
+
+  }
+  #info-form input{
+    border: 2px solid #fff;
+    width: 80%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.315);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #014f9500;
+
+    /* color: white; */
+  }
+  #address {
+    width: 193px;
+    height: 80px;
+    color: #fff;
+    background-color: #014f9500;
+    border: 2px solid #fff;
+    margin-right: -17px;
+}
+input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(66, 232, 110);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+  }
+  #info-Form>input value{
+    color:#fff;
+  }
+  .gender-list{
+    display: flex;
+   color: #fff;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   align-items: baseline;
+   text-align: center;
+}
+input:focus {
+  outline: none !important;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+}
+  ::placeholder {
+    color: #fff;
+  }
+  input::-moz-focus-outer{
+    color: #fff;
+  }
+
+  .text{
+    color: rgb(199, 197, 197);
+    font-size: 13px;
+  }
+  .add{
+    margin-top: 25px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+
+    background-color: #014f9500;
+
+    color: white;
+    font-weight: 600;
+  }
+  .add:hover{
+    background-color: rgba(165, 172, 167, 0.5);
+  }
+  .Checking-info-Massage{
+    color: #fff;
+    text-align:center;
+  }
+  /* .yes{
+    border: 2px solid rgb(4, 255, 4);
+    color: rgb(2, 255, 2);
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+    background-color: #014f9500;
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+
+}
+.no{
+    border: 2px solid red;
+    color: red;
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+    background-color: #014f9500;
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+} */
+.otherphone{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#plus-button{
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 8px;
+  margin: 10px;
+  margin-top: -10px;
+  margin-right: -14px;
+  cursor: pointer;
+  background-color: #014f9500;
+  padding: 15px;
+  font-size: 15px;
+}
+#plus-button:hover{
+  border: 2px solid rgb(255, 60, 60);
+  color: rgb(255, 60, 60);
+  cursor: pointer;
+}

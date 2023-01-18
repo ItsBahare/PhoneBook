@@ -1,0 +1,75 @@
+#info-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 49px;
+}
+
+.upload{
+    border: 2px solid rgb(216, 209, 4);
+    color: rgb(216, 209, 4);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 9px;
+    cursor: pointer;
+    background-color: #014f9500;
+    font-size:15px
+
+}
+#info-editForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+#info-editForm input{
+    border: 2px solid rgb(216, 209, 4);
+    width: 80%;
+    border-bottom: 2px solid rgb(216, 209, 4);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(216, 209, 4);
+  }
+  #info-editForm>input value{
+    color: rgb(216, 209, 4);
+  }
+  #address-edit {
+    width: 165px;
+    height: 78px;
+    color: rgb(216, 209, 4);
+    background-color: #014f9500;
+    border: 2px solid rgb(216, 209, 4);
+}
+input>#gender{
+    color: rgb(216, 209, 4);
+    background-color: #014f9500;
+    border: 2px solid rgb(216, 209, 4);
+}
+input:focus {
+    outline: none !important;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(216, 209, 4);
+  }
+
+  #info-editForm>label{
+    color:rgb(216, 209, 4);
+  }
+  ::placeholder {
+    color:rgb(216, 209, 4);
+  }
+
+.gender-list{
+     display: flex;
+    color: rgb(216, 209, 4);
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: center;
+}
+    
